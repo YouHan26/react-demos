@@ -7,6 +7,7 @@ import {ReduxDemo1, ReduxDemo2, ReduxDemo3} from "./demo/ReduxDemo"
 import VirtualListDemo from "./virtualList/VirtualListDemo"
 import DemoCardHoc from "./component/DemoCardHoc"
 import ResizeObserverDemo from './ResizeObserverDemo/ResizeObserverDemo'
+import DomEventDemo from "./domEvent/DomEventDemo"
 
 const ReduxDemo = DemoCardHoc('redux demo')(
   function () {
@@ -93,6 +94,7 @@ class App extends React.Component {
           <SnapshotTestDemo/>
           <HooksTestDemo/>
           <ResizeObserverDemo/>
+          <DomEventDemo />
         </React.Fragment>
       </Provider>
     )
